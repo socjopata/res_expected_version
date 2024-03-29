@@ -65,3 +65,4 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+gem "rails_event_store", "~> 2.14.0"
