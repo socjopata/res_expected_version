@@ -64,5 +64,8 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+  gem "rspec-rails", "~> 6.1"
+  gem "ruby_event_store-rspec"
 end
+
 gem "rails_event_store", "~> 2.14.0"
